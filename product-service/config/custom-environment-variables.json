@@ -1,0 +1,35 @@
+{
+  "server": {
+    "port": {
+      "__name": "SERVER_PORT",
+      "__format": "number"
+    }
+  },
+  "jwt": {
+    "secret": "JWT_SECRET",
+    "expireTime": {
+      "__name": "JWT_EXPIRE_TIME",
+      "__format": "number"
+    }
+  },
+  "database": {
+    "database": "DATABASE_DATABASE",
+    "host": "DATABASE_HOST",
+    "port": "DATABASE_PORT",
+    "user": "DATABASE_USER",
+    "password": "DATABASE_PASSWORD",
+    "pool": {
+      "min": {
+        "__name": "DATABASE_POOL_MIN",
+        "__format": "number"
+      },
+      "max": {
+        "__name": "DATABASE_POOL_MAX",
+        "__format": "number"
+      }
+    }
+  },
+  "rabbitMq": {
+    "url": "RABBITMQ_URL"
+  }
+}

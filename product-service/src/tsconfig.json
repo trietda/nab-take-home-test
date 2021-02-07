@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../build",
+    "composite": true
+  },
+  "files": [ "index.ts" ],
+  "references": [
+    { "path": "./common" },
+    { "path": "./core" },
+    { "path": "./infra" },
+    { "path": "./web" }
+  ]
+}
